@@ -4,6 +4,7 @@ def factorial(n: int) -> int:
     producto = 1
     for i in range(2, n + 1):
         producto *= i
+
     return producto
 
 def factorial_r(n: int) -> int:
