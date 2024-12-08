@@ -6,3 +6,10 @@
 # Calcule la altura en pies
 
 # Muestre por pantalla la altura en pies
+# Muestre por pantalla la altura en cm
+
+altura = float(input("Ingrese su altura: "))
+pies = altura / 0.3937
+print("La altura en pies es:", pies)
+print("La altura en cm es:", altura)
+

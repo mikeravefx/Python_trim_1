@@ -6,4 +6,11 @@
 # Calcule el peso en libras
 
 # Muestre por pantalla el peso en libras
+# Muestre por pantalla el peso en KG
+
+peso = float(input("Ingrese su peso: "))
+libras = peso / 2.20462
+print(libras)
+print(peso)
+
 

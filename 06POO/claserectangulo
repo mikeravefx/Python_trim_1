@@ -1,0 +1,55 @@
+def calcular_area(base: float, altura: float) -> float:
+    """
+    Calcula el área de un rectángulo.
+
+    Args:
+        base (float): La base del rectángulo.
+        altura (float): La altura del rectángulo.
+
+    Returns:
+        float: El área del rectángulo.
+
+    >>> calcular_area(4, 5)
+    20.0
+    >>> calcular_area(5, 5)
+    25.0
+    """
+    return base * altura
+
+def es_cuadrado(base: float, altura: float) -> bool:
+    """
+    Determina si el rectángulo es un cuadrado.
+
+    Args:
+        base (float): La base del rectángulo.
+        altura (float): La altura del rectángulo.
+
+    Returns:
+        bool: True si el rectángulo es un cuadrado, False en caso contrario.
+
+    >>> es_cuadrado(4, 5)
+    False
+    >>> es_cuadrado(5, 5)
+    True
+    """
+    return base == altura
+
+def descripcion_rectangulo(base: float, altura: float) -> str:
+    """
+    Devuelve una descripción del rectángulo.
+
+    Args:
+        base (float): La base del rectángulo.
+        altura (float): La altura del rectángulo.
+
+    Returns:
+        str: La descripción del rectángulo.
+
+    >>> descripcion_rectangulo(4, 5)
+    'Rectángulo de base 4 y altura 5 tiene un área de 20.0.'
+    >>> descripcion_rectangulo(5, 5)
+    'Rectángulo de base 5 y altura 5 tiene un área de 25.0.'
+    """
+    return f"Rectángulo de base {base} y altura {altura} tiene un área de {calcular_area(base, altura)}."
+
+

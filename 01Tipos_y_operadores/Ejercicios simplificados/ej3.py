@@ -17,3 +17,17 @@
 # Muestra ese número redondeado a 2 decimales
 
 # Muestra ese número sin decimales
+
+# Muestra ese número redondeado a 3 decimales
+
+round(3.1416)
+round(3.1416, 2)
+round(3.1416, 3)
+print(round(3.1416))
+print(round(3.1416, 2))
+print(round(3.1416, 3))
+
+input = float(input("Ingrese un número decimal: "))
+print(round(input))
+print(round(input, 2))
+print(round(input, 3))
